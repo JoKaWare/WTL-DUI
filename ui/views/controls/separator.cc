@@ -12,6 +12,7 @@ namespace views {
 // static
 const char Separator::kViewClassName[] = "views/Separator";
 
+const int kSeparatorWidth = 1;
 // The separator height in pixels.
 const int kSeparatorHeight = 1;
 
@@ -29,7 +30,7 @@ Separator::~Separator() {
 // Separator, View overrides:
 
 gfx::Size Separator::GetPreferredSize() {
-  return gfx::Size(width(), kSeparatorHeight);
+  return gfx::Size(kSeparatorWidth, kSeparatorHeight);
 }
 
 void Separator::GetAccessibleState(ui::AccessibleViewState* state) {

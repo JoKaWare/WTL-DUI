@@ -103,9 +103,7 @@ void DemoMain::InitWidget()
         gfx::Rect(200, 200, 400, 400) );
 
 	tabbed_pane->AddTab( L"Label", new DemoLabel );
-	
-	views::TextButton* text_button_ = new views::TextButton(this, ASCIIToUTF16("Text Button"));
-
+		
 	tabbed_pane->AddTab( L"html", new DemoHtml );
 	
 	tabbed_pane->AddTab( L"WebBrowser", new DemoWebBrowser );

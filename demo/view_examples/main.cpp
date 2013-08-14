@@ -14,6 +14,8 @@
 #include "ui/base/resource/resource_bundle.h"
 #include "ui/base/resource/resource_bundle_win.h"
 #include "base/native_library.h"
+#include "ui/base/win/scoped_ole_initializer.h"
+
 #include "ui/views/examples/examples_window.h"
 
 
@@ -28,12 +30,7 @@ int APIENTRY _tWinMain(HINSTANCE hInstance,
     UNREFERENCED_PARAMETER(hPrevInstance);
     UNREFERENCED_PARAMETER(lpCmdLine);
 
-    HRESULT hRes = OleInitialize(NULL);
-
-    // this resolves ATL window thunking problem when Microsoft Layer
-    // for Unicode (MSLU) is used.
-  //  ::DefWindowProc(NULL, 0, 0, 0L);
-
+	ui::ScopedOleInitializer OleIniter;
     CommandLine::Init(0, NULL);
 
 	base::EnableTerminationOnHeapCorruption();
@@ -52,7 +49,6 @@ int APIENTRY _tWinMain(HINSTANCE hInstance,
 
 	ui::ResourceBundle::CleanupSharedInstance();
 
-    OleUninitialize();
 
     return 0;
 }

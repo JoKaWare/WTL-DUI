@@ -15,6 +15,8 @@
 #include "ui/views/widget/widget.h"
 #include "ui/base/resource/resource_bundle_win.h"
 #include "base/native_library.h"
+#include "ui/base/win/scoped_ole_initializer.h"
+
 #include "demo_main.h"
 
 
@@ -29,7 +31,7 @@ int APIENTRY _tWinMain(HINSTANCE hInstance,
 	UNREFERENCED_PARAMETER(hPrevInstance);
 	UNREFERENCED_PARAMETER(lpCmdLine);
 
-	HRESULT hRes = OleInitialize(NULL);
+	ui::ScopedOleInitializer OleIniter;
 
 	 _Module.Init(NULL, hInstance);
 
@@ -54,7 +56,6 @@ int APIENTRY _tWinMain(HINSTANCE hInstance,
 
 	ui::ResourceBundle::CleanupSharedInstance();
 
-	OleUninitialize();
 
 	return 0;
 }

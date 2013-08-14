@@ -3,10 +3,9 @@
 #include <windows.h>
 #include <initguid.h>
 #include <oleacc.h>
-
 #include <atlbase.h>
-
 #include "base/command_line.h"
+#include "ui/base/win/scoped_ole_initializer.h"
 
 #include "demo_main.h"
 
@@ -22,19 +21,11 @@ int APIENTRY _tWinMain(HINSTANCE hInstance,
     UNREFERENCED_PARAMETER(hPrevInstance);
     UNREFERENCED_PARAMETER(lpCmdLine);
 
-    HRESULT hRes = OleInitialize(NULL);
-
-    // this resolves ATL window thunking problem when Microsoft Layer
-    // for Unicode (MSLU) is used.
-  //  ::DefWindowProc(NULL, 0, 0, 0L);
-
-    CommandLine::Init(0, NULL);
-
-
+	ui::ScopedOleInitializer OleIniter;
+	CommandLine::Init(0, NULL);
 	DemoMain main;
 	main.Run();
 
-    OleUninitialize();
 
     return 0;
 }
