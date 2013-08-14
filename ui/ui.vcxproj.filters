@@ -1,0 +1,1226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ui_controls">
+      <UniqueIdentifier>{b6fa9cea-1751-4c7d-8c81-8480571d1ab0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui_controls\_excluded_files">
+      <UniqueIdentifier>{bb178a8c-c365-4c73-9e7f-0eebe6eda318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gfx">
+      <UniqueIdentifier>{d3dc0dc4-60c6-49a4-bb7a-f972b7491e03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gfx\_excluded_files">
+      <UniqueIdentifier>{8050edb5-68c7-4190-a308-437d3f31d1e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gfx\image">
+      <UniqueIdentifier>{8d3c3ccd-eb77-4aed-8781-080c27967bcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gfx\image\_excluded_files">
+      <UniqueIdentifier>{15cbf913-53df-4d21-84a9-603408f75c1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gfx\codec">
+      <UniqueIdentifier>{74309809-1101-4827-b76a-cc37a3724811}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gfx\mac">
+      <UniqueIdentifier>{a205f591-e929-4d40-a6a4-74da7f939868}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gfx\mac\_excluded_files">
+      <UniqueIdentifier>{43681148-42c6-4ebc-aa46-a036649a9df2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{64f54fc5-75a1-48ee-9c22-71a91a0a2b70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\cursor">
+      <UniqueIdentifier>{47bdc1b7-0441-4d10-b5f8-6532eeb9963f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\cursor\_excluded_files">
+      <UniqueIdentifier>{ef796138-4dd8-4913-8d4c-55bcde7b1b1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\x">
+      <UniqueIdentifier>{3fd4ad8f-4e00-44d8-99c1-888c0767874b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\x\_excluded_files">
+      <UniqueIdentifier>{d6a32d5b-0514-40bc-b1c6-5a232ea1626d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\resource">
+      <UniqueIdentifier>{74e0126f-11e0-4003-bb77-cd558d1f72ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\resource\_excluded_files">
+      <UniqueIdentifier>{fa256f99-2c47-4e1b-89a6-6b24d2deb4d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\l10n">
+      <UniqueIdentifier>{5f0bda60-a712-4b47-ac3c-e13400cb85a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\l10n\_excluded_files">
+      <UniqueIdentifier>{7b1d34c7-6c4c-4b25-92b2-dd0368fe6289}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\touch">
+      <UniqueIdentifier>{1151a5ae-a5ad-4391-b688-d8c30ba9ad17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\touch\_excluded_files">
+      <UniqueIdentifier>{cc980a5f-3c31-49b4-bb6a-65148d2b973a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\keycodes">
+      <UniqueIdentifier>{534aa5be-2d55-4dd8-8e5c-05f5fa2ffa38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\keycodes\_excluded_files">
+      <UniqueIdentifier>{4f31c13f-f0ea-47ce-a714-f982130283ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\models">
+      <UniqueIdentifier>{c6b309ed-39c1-4ee5-9ee1-41072c011650}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\text">
+      <UniqueIdentifier>{630d982f-d4bc-407c-ab30-8a3a87fd9a39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\gtk">
+      <UniqueIdentifier>{fb91be7f-1ddc-4a33-83a8-a3906bcee364}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\gtk\_excluded_files">
+      <UniqueIdentifier>{2fd0f0fa-298f-466b-846f-75f02ccb6322}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\accessibility">
+      <UniqueIdentifier>{b4e92729-4901-4016-bfac-c5292bbb6c27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\accelerators">
+      <UniqueIdentifier>{d2cbd772-4c45-4927-a96e-a9e51c87b433}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\range">
+      <UniqueIdentifier>{5dfd5297-e0ef-4bf8-8caf-1939bf9308e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\range\_excluded_files">
+      <UniqueIdentifier>{1c06e2d8-4fec-47c0-b810-9fdc349ae8e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\clipboard">
+      <UniqueIdentifier>{6e1ecb5d-ffde-42e9-a5e5-c6b8d3dab2ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\dragdrop">
+      <UniqueIdentifier>{2eda86e2-641e-4f30-b294-189a90327358}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\win">
+      <UniqueIdentifier>{d2b3a34a-61b8-4d8c-83bc-fe789f329479}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\gestures">
+      <UniqueIdentifier>{72ca428b-b227-4e52-ab9c-8d1662e288ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\ime">
+      <UniqueIdentifier>{6c0e8d0a-46e6-4f5a-af15-a66c079bb199}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\ime\_excluded_files">
+      <UniqueIdentifier>{9bcdf75b-05f4-48a3-9701-a2b28c7fcfe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\animation">
+      <UniqueIdentifier>{d0b39906-cfd8-474a-83a4-9b7a94283fd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\native_theme">
+      <UniqueIdentifier>{421e5879-5e02-4225-a1a1-8166358ca852}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\native_theme\_excluded_files">
+      <UniqueIdentifier>{7be609a7-27e4-4b36-a0af-b110f8308df6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ui_controls\ui_controls.h">
+      <Filter>ui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_controls\ui_controls_internal_win.h">
+      <Filter>ui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\blit.h">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\canvas.h">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\canvas_paint.h">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\canvas_skia_paint.h">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\color_analysis.h">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\color_utils.h">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\favicon_size.h">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\font.h">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\font_list.h">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\font_smoothing_win.h">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\gdi_util.h">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\gfx_paths.h">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\icon_util.h">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\insets.h">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\interpolated_transform.h">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\monitor.h">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\native_widget_types.h">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\path.h">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\platform_font.h">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\platform_font_win.h">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\point.h">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\point_base.h">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\rect.h">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\rect_base.h">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\rect_base_impl.h">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\render_text.h">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\render_text_win.h">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\screen.h">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\screen_impl.h">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\scrollbar_size.h">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\selection_model.h">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\shadow_value.h">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\size.h">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\size_base.h">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\size_base_impl.h">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\skbitmap_operations.h">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\skia_util.h">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\sys_color_change_listener.h">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\transform.h">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\transform_util.h">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\image\image.h">
+      <Filter>gfx\image</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\image\image_skia.h">
+      <Filter>gfx\image</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\image\image_util.h">
+      <Filter>gfx\image</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\codec\jpeg_codec.h">
+      <Filter>gfx\codec</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx\codec\png_codec.h">
+      <Filter>gfx\codec</Filter>
+    </ClInclude>
+    <ClInclude Include="base\events.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\hit_test.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\javascript_message_type.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\layout.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\theme_provider.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ui_base_paths.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ui_base_switches.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ui_base_types.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ui_export.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\view_prop.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\work_area_watcher_observer.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\x\active_window_watcher_x_observer.h">
+      <Filter>base\x</Filter>
+    </ClInclude>
+    <ClInclude Include="base\resource\data_pack.h">
+      <Filter>base\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="base\resource\resource_bundle.h">
+      <Filter>base\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="base\resource\resource_bundle_win.h">
+      <Filter>base\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="base\resource\resource_data_dll_win.h">
+      <Filter>base\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="base\resource\resource_handle.h">
+      <Filter>base\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="base\l10n\l10n_font_util.h">
+      <Filter>base\l10n</Filter>
+    </ClInclude>
+    <ClInclude Include="base\l10n\l10n_util.h">
+      <Filter>base\l10n</Filter>
+    </ClInclude>
+    <ClInclude Include="base\l10n\l10n_util_collator.h">
+      <Filter>base\l10n</Filter>
+    </ClInclude>
+    <ClInclude Include="base\l10n\l10n_util_win.h">
+      <Filter>base\l10n</Filter>
+    </ClInclude>
+    <ClInclude Include="base\keycodes\keyboard_code_conversion.h">
+      <Filter>base\keycodes</Filter>
+    </ClInclude>
+    <ClInclude Include="base\keycodes\keyboard_code_conversion_win.h">
+      <Filter>base\keycodes</Filter>
+    </ClInclude>
+    <ClInclude Include="base\keycodes\keyboard_codes.h">
+      <Filter>base\keycodes</Filter>
+    </ClInclude>
+    <ClInclude Include="base\models\button_menu_item_model.h">
+      <Filter>base\models</Filter>
+    </ClInclude>
+    <ClInclude Include="base\models\combobox_model.h">
+      <Filter>base\models</Filter>
+    </ClInclude>
+    <ClInclude Include="base\models\list_model.h">
+      <Filter>base\models</Filter>
+    </ClInclude>
+    <ClInclude Include="base\models\list_model_observer.h">
+      <Filter>base\models</Filter>
+    </ClInclude>
+    <ClInclude Include="base\models\menu_model.h">
+      <Filter>base\models</Filter>
+    </ClInclude>
+    <ClInclude Include="base\models\menu_model_delegate.h">
+      <Filter>base\models</Filter>
+    </ClInclude>
+    <ClInclude Include="base\models\simple_menu_model.h">
+      <Filter>base\models</Filter>
+    </ClInclude>
+    <ClInclude Include="base\models\table_model.h">
+      <Filter>base\models</Filter>
+    </ClInclude>
+    <ClInclude Include="base\models\table_model_observer.h">
+      <Filter>base\models</Filter>
+    </ClInclude>
+    <ClInclude Include="base\models\tree_model.h">
+      <Filter>base\models</Filter>
+    </ClInclude>
+    <ClInclude Include="base\models\tree_node_iterator.h">
+      <Filter>base\models</Filter>
+    </ClInclude>
+    <ClInclude Include="base\models\tree_node_model.h">
+      <Filter>base\models</Filter>
+    </ClInclude>
+    <ClInclude Include="base\text\bytes_formatting.h">
+      <Filter>base\text</Filter>
+    </ClInclude>
+    <ClInclude Include="base\text\text_elider.h">
+      <Filter>base\text</Filter>
+    </ClInclude>
+    <ClInclude Include="base\text\utf16_indexing.h">
+      <Filter>base\text</Filter>
+    </ClInclude>
+    <ClInclude Include="base\accessibility\accessibility_types.h">
+      <Filter>base\accessibility</Filter>
+    </ClInclude>
+    <ClInclude Include="base\accessibility\accessible_text_utils.h">
+      <Filter>base\accessibility</Filter>
+    </ClInclude>
+    <ClInclude Include="base\accessibility\accessible_view_state.h">
+      <Filter>base\accessibility</Filter>
+    </ClInclude>
+    <ClInclude Include="base\accelerators\accelerator.h">
+      <Filter>base\accelerators</Filter>
+    </ClInclude>
+    <ClInclude Include="base\accelerators\accelerator_manager.h">
+      <Filter>base\accelerators</Filter>
+    </ClInclude>
+    <ClInclude Include="base\range\range.h">
+      <Filter>base\range</Filter>
+    </ClInclude>
+    <ClInclude Include="base\clipboard\clipboard.h">
+      <Filter>base\clipboard</Filter>
+    </ClInclude>
+    <ClInclude Include="base\clipboard\clipboard_util_win.h">
+      <Filter>base\clipboard</Filter>
+    </ClInclude>
+    <ClInclude Include="base\clipboard\custom_data_helper.h">
+      <Filter>base\clipboard</Filter>
+    </ClInclude>
+    <ClInclude Include="base\clipboard\scoped_clipboard_writer.h">
+      <Filter>base\clipboard</Filter>
+    </ClInclude>
+    <ClInclude Include="base\dragdrop\cocoa_dnd_util.h">
+      <Filter>base\dragdrop</Filter>
+    </ClInclude>
+    <ClInclude Include="base\dragdrop\drag_drop_types.h">
+      <Filter>base\dragdrop</Filter>
+    </ClInclude>
+    <ClInclude Include="base\dragdrop\drag_source.h">
+      <Filter>base\dragdrop</Filter>
+    </ClInclude>
+    <ClInclude Include="base\dragdrop\drag_utils.h">
+      <Filter>base\dragdrop</Filter>
+    </ClInclude>
+    <ClInclude Include="base\dragdrop\drop_target.h">
+      <Filter>base\dragdrop</Filter>
+    </ClInclude>
+    <ClInclude Include="base\dragdrop\os_exchange_data.h">
+      <Filter>base\dragdrop</Filter>
+    </ClInclude>
+    <ClInclude Include="base\dragdrop\os_exchange_data_provider_win.h">
+      <Filter>base\dragdrop</Filter>
+    </ClInclude>
+    <ClInclude Include="base\win\atl_module.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="base\win\dpi.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="base\win\foreground_helper.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="base\win\hwnd_subclass.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="base\win\hwnd_util.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="base\win\ime_input.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="base\win\message_box_win.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="base\win\mouse_wheel_util.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="base\win\scoped_ole_initializer.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="base\win\scoped_set_map_mode.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="base\win\shell.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="base\win\singleton_hwnd.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="base\win\window_impl.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="base\gestures\gesture_configuration.h">
+      <Filter>base\gestures</Filter>
+    </ClInclude>
+    <ClInclude Include="base\gestures\gesture_point.h">
+      <Filter>base\gestures</Filter>
+    </ClInclude>
+    <ClInclude Include="base\gestures\gesture_recognizer.h">
+      <Filter>base\gestures</Filter>
+    </ClInclude>
+    <ClInclude Include="base\gestures\gesture_recognizer_impl.h">
+      <Filter>base\gestures</Filter>
+    </ClInclude>
+    <ClInclude Include="base\gestures\gesture_sequence.h">
+      <Filter>base\gestures</Filter>
+    </ClInclude>
+    <ClInclude Include="base\gestures\velocity_calculator.h">
+      <Filter>base\gestures</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ime\composition_text.h">
+      <Filter>base\ime</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ime\text_input_client.h">
+      <Filter>base\ime</Filter>
+    </ClInclude>
+    <ClInclude Include="base\animation\animation.h">
+      <Filter>base\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="base\animation\animation_container.h">
+      <Filter>base\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="base\animation\animation_container_element.h">
+      <Filter>base\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="base\animation\animation_container_observer.h">
+      <Filter>base\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="base\animation\animation_delegate.h">
+      <Filter>base\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="base\animation\linear_animation.h">
+      <Filter>base\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="base\animation\multi_animation.h">
+      <Filter>base\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="base\animation\slide_animation.h">
+      <Filter>base\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="base\animation\throb_animation.h">
+      <Filter>base\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="base\animation\tween.h">
+      <Filter>base\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="base\native_theme\native_theme.h">
+      <Filter>base\native_theme</Filter>
+    </ClInclude>
+    <ClInclude Include="base\native_theme\native_theme_android.h">
+      <Filter>base\native_theme</Filter>
+    </ClInclude>
+    <ClInclude Include="base\native_theme\native_theme_base.h">
+      <Filter>base\native_theme</Filter>
+    </ClInclude>
+    <ClInclude Include="base\native_theme\native_theme_win.h">
+      <Filter>base\native_theme</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ui_controls\ui_controls_internal_win.cc">
+      <Filter>ui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_controls\ui_controls_win.cc">
+      <Filter>ui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_controls\ui_controls_aura.cc">
+      <Filter>ui_controls\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_controls\ui_controls_gtk.cc">
+      <Filter>ui_controls\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\blit.cc">
+      <Filter>gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\canvas.cc">
+      <Filter>gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\canvas_paint_win.cc">
+      <Filter>gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\canvas_skia.cc">
+      <Filter>gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\color_analysis.cc">
+      <Filter>gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\color_utils.cc">
+      <Filter>gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\favicon_size.cc">
+      <Filter>gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\font.cc">
+      <Filter>gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\font_list.cc">
+      <Filter>gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\font_smoothing_win.cc">
+      <Filter>gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\gdi_util.cc">
+      <Filter>gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\gfx_paths.cc">
+      <Filter>gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\icon_util.cc">
+      <Filter>gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\insets.cc">
+      <Filter>gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\interpolated_transform.cc">
+      <Filter>gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\monitor.cc">
+      <Filter>gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\path.cc">
+      <Filter>gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\path_win.cc">
+      <Filter>gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\platform_font_win.cc">
+      <Filter>gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\point.cc">
+      <Filter>gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\rect.cc">
+      <Filter>gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\render_text.cc">
+      <Filter>gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\render_text_win.cc">
+      <Filter>gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\screen_win.cc">
+      <Filter>gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\scrollbar_size.cc">
+      <Filter>gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\selection_model.cc">
+      <Filter>gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\shadow_value.cc">
+      <Filter>gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\size.cc">
+      <Filter>gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\skbitmap_operations.cc">
+      <Filter>gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\skia_util.cc">
+      <Filter>gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\sys_color_change_listener.cc">
+      <Filter>gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\transform.cc">
+      <Filter>gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\transform_util.cc">
+      <Filter>gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\canvas_android.cc">
+      <Filter>gfx\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\canvas_linux.cc">
+      <Filter>gfx\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\canvas_win.cc">
+      <Filter>gfx\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\pango_util.cc">
+      <Filter>gfx\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\path_aura.cc">
+      <Filter>gfx\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\path_gtk.cc">
+      <Filter>gfx\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\platform_font_android.cc">
+      <Filter>gfx\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\platform_font_pango.cc">
+      <Filter>gfx\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\render_text_linux.cc">
+      <Filter>gfx\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\screen_android.cc">
+      <Filter>gfx\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\screen_aura.cc">
+      <Filter>gfx\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\screen_gtk.cc">
+      <Filter>gfx\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\skia_utils_gtk.cc">
+      <Filter>gfx\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\image\image.cc">
+      <Filter>gfx\image</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\image\image_skia.cc">
+      <Filter>gfx\image</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\image\image_util.cc">
+      <Filter>gfx\image</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\codec\jpeg_codec.cc">
+      <Filter>gfx\codec</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx\codec\png_codec.cc">
+      <Filter>gfx\codec</Filter>
+    </ClCompile>
+    <ClCompile Include="base\layout.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\theme_provider.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ui_base_exports.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ui_base_paths.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ui_base_switches.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\view_prop.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\cursor\cursor.cc">
+      <Filter>base\cursor\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\cursor\cursor_win.cc">
+      <Filter>base\cursor\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\cursor\cursor_x11.cc">
+      <Filter>base\cursor\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\x\active_window_watcher_x.cc">
+      <Filter>base\x\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\x\events_x.cc">
+      <Filter>base\x\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\x\root_window_property_watcher_x.cc">
+      <Filter>base\x\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\x\work_area_watcher_x.cc">
+      <Filter>base\x\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\x\x11_atom_cache.cc">
+      <Filter>base\x\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\x\x11_util.cc">
+      <Filter>base\x\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\resource\data_pack.cc">
+      <Filter>base\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="base\resource\resource_bundle.cc">
+      <Filter>base\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="base\resource\resource_bundle_win.cc">
+      <Filter>base\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="base\resource\resource_data_dll_win.cc">
+      <Filter>base\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="base\resource\resource_handle.cc">
+      <Filter>base\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="base\resource\resource_bundle_android.cc">
+      <Filter>base\resource\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\resource\resource_bundle_aurax11.cc">
+      <Filter>base\resource\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\resource\resource_bundle_gtk.cc">
+      <Filter>base\resource\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\l10n\l10n_font_util.cc">
+      <Filter>base\l10n</Filter>
+    </ClCompile>
+    <ClCompile Include="base\l10n\l10n_util.cc">
+      <Filter>base\l10n</Filter>
+    </ClCompile>
+    <ClCompile Include="base\l10n\l10n_util_win.cc">
+      <Filter>base\l10n</Filter>
+    </ClCompile>
+    <ClCompile Include="base\l10n\l10n_util_posix.cc">
+      <Filter>base\l10n\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\touch\touch_factory.cc">
+      <Filter>base\touch\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\keycodes\keyboard_code_conversion.cc">
+      <Filter>base\keycodes</Filter>
+    </ClCompile>
+    <ClCompile Include="base\keycodes\keyboard_code_conversion_win.cc">
+      <Filter>base\keycodes</Filter>
+    </ClCompile>
+    <ClCompile Include="base\keycodes\keyboard_code_conversion_gtk.cc">
+      <Filter>base\keycodes\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\keycodes\keyboard_code_conversion_x.cc">
+      <Filter>base\keycodes\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\models\button_menu_item_model.cc">
+      <Filter>base\models</Filter>
+    </ClCompile>
+    <ClCompile Include="base\models\menu_model.cc">
+      <Filter>base\models</Filter>
+    </ClCompile>
+    <ClCompile Include="base\models\simple_menu_model.cc">
+      <Filter>base\models</Filter>
+    </ClCompile>
+    <ClCompile Include="base\models\table_model.cc">
+      <Filter>base\models</Filter>
+    </ClCompile>
+    <ClCompile Include="base\models\tree_model.cc">
+      <Filter>base\models</Filter>
+    </ClCompile>
+    <ClCompile Include="base\text\bytes_formatting.cc">
+      <Filter>base\text</Filter>
+    </ClCompile>
+    <ClCompile Include="base\text\text_elider.cc">
+      <Filter>base\text</Filter>
+    </ClCompile>
+    <ClCompile Include="base\text\utf16_indexing.cc">
+      <Filter>base\text</Filter>
+    </ClCompile>
+    <ClCompile Include="base\gtk\event_synthesis_gtk.cc">
+      <Filter>base\gtk\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\gtk\focus_store_gtk.cc">
+      <Filter>base\gtk\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\gtk\g_object_destructor_filo.cc">
+      <Filter>base\gtk\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\gtk\gtk_expanded_container.cc">
+      <Filter>base\gtk\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\gtk\gtk_floating_container.cc">
+      <Filter>base\gtk\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\gtk\gtk_im_context_util.cc">
+      <Filter>base\gtk\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\gtk\gtk_screen_util.cc">
+      <Filter>base\gtk\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\gtk\gtk_signal_registrar.cc">
+      <Filter>base\gtk\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\gtk\gtk_windowing.cc">
+      <Filter>base\gtk\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\gtk\menu_label_accelerator_util.cc">
+      <Filter>base\gtk\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\gtk\owned_widget_gtk.cc">
+      <Filter>base\gtk\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\gtk\scoped_region.cc">
+      <Filter>base\gtk\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\accessibility\accessible_text_utils.cc">
+      <Filter>base\accessibility</Filter>
+    </ClCompile>
+    <ClCompile Include="base\accessibility\accessible_view_state.cc">
+      <Filter>base\accessibility</Filter>
+    </ClCompile>
+    <ClCompile Include="base\accelerators\accelerator.cc">
+      <Filter>base\accelerators</Filter>
+    </ClCompile>
+    <ClCompile Include="base\accelerators\accelerator_manager.cc">
+      <Filter>base\accelerators</Filter>
+    </ClCompile>
+    <ClCompile Include="base\range\range.cc">
+      <Filter>base\range</Filter>
+    </ClCompile>
+    <ClCompile Include="base\range\range_win.cc">
+      <Filter>base\range</Filter>
+    </ClCompile>
+    <ClCompile Include="base\clipboard\clipboard.cc">
+      <Filter>base\clipboard</Filter>
+    </ClCompile>
+    <ClCompile Include="base\clipboard\clipboard_util_win.cc">
+      <Filter>base\clipboard</Filter>
+    </ClCompile>
+    <ClCompile Include="base\clipboard\clipboard_win.cc">
+      <Filter>base\clipboard</Filter>
+    </ClCompile>
+    <ClCompile Include="base\clipboard\custom_data_helper.cc">
+      <Filter>base\clipboard</Filter>
+    </ClCompile>
+    <ClCompile Include="base\clipboard\scoped_clipboard_writer.cc">
+      <Filter>base\clipboard</Filter>
+    </ClCompile>
+    <ClCompile Include="base\dragdrop\drag_drop_types_win.cc">
+      <Filter>base\dragdrop</Filter>
+    </ClCompile>
+    <ClCompile Include="base\dragdrop\drag_source.cc">
+      <Filter>base\dragdrop</Filter>
+    </ClCompile>
+    <ClCompile Include="base\dragdrop\drag_utils.cc">
+      <Filter>base\dragdrop</Filter>
+    </ClCompile>
+    <ClCompile Include="base\dragdrop\drag_utils_win.cc">
+      <Filter>base\dragdrop</Filter>
+    </ClCompile>
+    <ClCompile Include="base\dragdrop\drop_target.cc">
+      <Filter>base\dragdrop</Filter>
+    </ClCompile>
+    <ClCompile Include="base\dragdrop\os_exchange_data.cc">
+      <Filter>base\dragdrop</Filter>
+    </ClCompile>
+    <ClCompile Include="base\dragdrop\os_exchange_data_provider_win.cc">
+      <Filter>base\dragdrop</Filter>
+    </ClCompile>
+    <ClCompile Include="base\win\dpi.cc">
+      <Filter>base\win</Filter>
+    </ClCompile>
+    <ClCompile Include="base\win\events_win.cc">
+      <Filter>base\win</Filter>
+    </ClCompile>
+    <ClCompile Include="base\win\foreground_helper.cc">
+      <Filter>base\win</Filter>
+    </ClCompile>
+    <ClCompile Include="base\win\hwnd_subclass.cc">
+      <Filter>base\win</Filter>
+    </ClCompile>
+    <ClCompile Include="base\win\hwnd_util.cc">
+      <Filter>base\win</Filter>
+    </ClCompile>
+    <ClCompile Include="base\win\ime_input.cc">
+      <Filter>base\win</Filter>
+    </ClCompile>
+    <ClCompile Include="base\win\message_box_win.cc">
+      <Filter>base\win</Filter>
+    </ClCompile>
+    <ClCompile Include="base\win\mouse_wheel_util.cc">
+      <Filter>base\win</Filter>
+    </ClCompile>
+    <ClCompile Include="base\win\scoped_ole_initializer.cc">
+      <Filter>base\win</Filter>
+    </ClCompile>
+    <ClCompile Include="base\win\shell.cc">
+      <Filter>base\win</Filter>
+    </ClCompile>
+    <ClCompile Include="base\win\singleton_hwnd.cc">
+      <Filter>base\win</Filter>
+    </ClCompile>
+    <ClCompile Include="base\win\window_impl.cc">
+      <Filter>base\win</Filter>
+    </ClCompile>
+    <ClCompile Include="base\gestures\gesture_configuration.cc">
+      <Filter>base\gestures</Filter>
+    </ClCompile>
+    <ClCompile Include="base\gestures\gesture_point.cc">
+      <Filter>base\gestures</Filter>
+    </ClCompile>
+    <ClCompile Include="base\gestures\gesture_recognizer_impl.cc">
+      <Filter>base\gestures</Filter>
+    </ClCompile>
+    <ClCompile Include="base\gestures\gesture_sequence.cc">
+      <Filter>base\gestures</Filter>
+    </ClCompile>
+    <ClCompile Include="base\gestures\velocity_calculator.cc">
+      <Filter>base\gestures</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ime\composition_text.cc">
+      <Filter>base\ime</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ime\text_input_client.cc">
+      <Filter>base\ime</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ime\character_composer.cc">
+      <Filter>base\ime\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ime\ibus_client_impl.cc">
+      <Filter>base\ime\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ime\input_method_base.cc">
+      <Filter>base\ime\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ime\input_method_factory.cc">
+      <Filter>base\ime\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ime\input_method_ibus.cc">
+      <Filter>base\ime\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ime\mock_ibus_client.cc">
+      <Filter>base\ime\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ime\mock_input_method.cc">
+      <Filter>base\ime\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\animation\animation.cc">
+      <Filter>base\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="base\animation\animation_container.cc">
+      <Filter>base\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="base\animation\linear_animation.cc">
+      <Filter>base\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="base\animation\multi_animation.cc">
+      <Filter>base\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="base\animation\slide_animation.cc">
+      <Filter>base\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="base\animation\throb_animation.cc">
+      <Filter>base\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="base\animation\tween.cc">
+      <Filter>base\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="base\native_theme\native_theme.cc">
+      <Filter>base\native_theme</Filter>
+    </ClCompile>
+    <ClCompile Include="base\native_theme\native_theme_base.cc">
+      <Filter>base\native_theme</Filter>
+    </ClCompile>
+    <ClCompile Include="base\native_theme\native_theme_win.cc">
+      <Filter>base\native_theme</Filter>
+    </ClCompile>
+    <ClCompile Include="base\native_theme\native_theme_android.cc">
+      <Filter>base\native_theme\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\native_theme\native_theme_aura.cc">
+      <Filter>base\native_theme\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\native_theme\native_theme_gtk.cc">
+      <Filter>base\native_theme\_excluded_files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui.gyp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="ui_controls\ui_controls_mac.mm">
+      <Filter>ui_controls\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gfx\canvas_mac.mm">
+      <Filter>gfx\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gfx\pango_util.h">
+      <Filter>gfx\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gfx\platform_font_mac.h">
+      <Filter>gfx\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gfx\platform_font_mac.mm">
+      <Filter>gfx\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gfx\platform_font_pango.h">
+      <Filter>gfx\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gfx\render_text_linux.h">
+      <Filter>gfx\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gfx\scoped_cg_context_save_gstate_mac.h">
+      <Filter>gfx\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gfx\scoped_ns_graphics_context_save_gstate_mac.h">
+      <Filter>gfx\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gfx\scoped_ns_graphics_context_save_gstate_mac.mm">
+      <Filter>gfx\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gfx\screen_mac.mm">
+      <Filter>gfx\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gfx\skia_utils_gtk.h">
+      <Filter>gfx\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gfx\video_decode_acceleration_support_mac.h">
+      <Filter>gfx\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gfx\video_decode_acceleration_support_mac.mm">
+      <Filter>gfx\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gfx\image\image_mac.mm">
+      <Filter>gfx\image\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gfx\mac\nsimage_cache.h">
+      <Filter>gfx\mac\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gfx\mac\nsimage_cache.mm">
+      <Filter>gfx\mac\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gfx\mac\scoped_ns_disable_screen_updates.h">
+      <Filter>gfx\mac\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="base\cursor\cursor.h">
+      <Filter>base\cursor\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="base\x\active_window_watcher_x.h">
+      <Filter>base\x\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="base\x\root_window_property_watcher_x.h">
+      <Filter>base\x\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="base\x\work_area_watcher_x.h">
+      <Filter>base\x\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="base\x\x11_atom_cache.h">
+      <Filter>base\x\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="base\x\x11_util.h">
+      <Filter>base\x\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="base\x\x11_util_internal.h">
+      <Filter>base\x\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="base\resource\resource_bundle_mac.mm">
+      <Filter>base\resource\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="base\l10n\l10n_util_mac.h">
+      <Filter>base\l10n\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="base\l10n\l10n_util_mac.mm">
+      <Filter>base\l10n\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="base\touch\touch_factory.h">
+      <Filter>base\touch\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="base\keycodes\keyboard_code_conversion_gtk.h">
+      <Filter>base\keycodes\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="base\keycodes\keyboard_code_conversion_mac.h">
+      <Filter>base\keycodes\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="base\keycodes\keyboard_code_conversion_mac.mm">
+      <Filter>base\keycodes\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="base\keycodes\keyboard_code_conversion_x.h">
+      <Filter>base\keycodes\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="base\gtk\event_synthesis_gtk.h">
+      <Filter>base\gtk\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="base\gtk\focus_store_gtk.h">
+      <Filter>base\gtk\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="base\gtk\g_object_destructor_filo.h">
+      <Filter>base\gtk\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="base\gtk\gtk_expanded_container.h">
+      <Filter>base\gtk\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="base\gtk\gtk_floating_container.h">
+      <Filter>base\gtk\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="base\gtk\gtk_hig_constants.h">
+      <Filter>base\gtk\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="base\gtk\gtk_im_context_util.h">
+      <Filter>base\gtk\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="base\gtk\gtk_screen_util.h">
+      <Filter>base\gtk\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="base\gtk\gtk_signal.h">
+      <Filter>base\gtk\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="base\gtk\gtk_signal_registrar.h">
+      <Filter>base\gtk\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="base\gtk\gtk_windowing.h">
+      <Filter>base\gtk\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="base\gtk\menu_label_accelerator_util.h">
+      <Filter>base\gtk\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="base\gtk\owned_widget_gtk.h">
+      <Filter>base\gtk\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="base\gtk\scoped_gobject.h">
+      <Filter>base\gtk\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="base\gtk\scoped_region.h">
+      <Filter>base\gtk\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="base\range\range_mac.mm">
+      <Filter>base\range\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="base\ime\character_composer.h">
+      <Filter>base\ime\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="base\ime\composition_underline.h">
+      <Filter>base\ime\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="base\ime\ibus_client.h">
+      <Filter>base\ime\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="base\ime\ibus_client_impl.h">
+      <Filter>base\ime\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="base\ime\input_method.h">
+      <Filter>base\ime\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="base\ime\input_method_base.h">
+      <Filter>base\ime\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="base\ime\input_method_delegate.h">
+      <Filter>base\ime\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="base\ime\input_method_factory.h">
+      <Filter>base\ime\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="base\ime\input_method_ibus.h">
+      <Filter>base\ime\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="base\ime\mock_ibus_client.h">
+      <Filter>base\ime\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="base\ime\mock_input_method.h">
+      <Filter>base\ime\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="base\ime\text_input_type.h">
+      <Filter>base\ime\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="base\native_theme\native_theme_aura.h">
+      <Filter>base\native_theme\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="base\native_theme\native_theme_gtk.h">
+      <Filter>base\native_theme\_excluded_files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

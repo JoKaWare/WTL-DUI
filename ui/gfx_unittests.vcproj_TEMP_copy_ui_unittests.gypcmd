@@ -1,0 +1,1 @@
+call "$(ProjectDir)..\third_party\cygwin\setup_env.bat" && set CYGWIN=nontsec&& set OUTDIR=$(OutDir)&& bash -c "\"python\" \"-c\" \"import os, shutil; shutil.copyfile('`cygpath -m \"${OUTDIR}\"`/ui_unittests.exe', '`cygpath -m \"${OUTDIR}\"`/gfx_unittests.exe'); os.chmod('`cygpath -m \"${OUTDIR}\"`/gfx_unittests.exe', 0700)\""

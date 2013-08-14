@@ -1,0 +1,1 @@
+call "$(ProjectDir)..\..\third_party\cygwin\setup_env.bat" && set CYGWIN=nontsec&& set OUTDIR=$(OutDir)&& bash -c "\"./prep_libc.sh\" \"$(VCInstallDir)lib\" \"`cygpath -m \"${OUTDIR}\"`/obj/global_intermediate/allocator\""

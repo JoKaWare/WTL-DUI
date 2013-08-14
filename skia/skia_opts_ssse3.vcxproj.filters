@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{0a69417f-e006-4bf7-9d73-a8ab1b7adcdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\third_party">
+      <UniqueIdentifier>{f3db4b2a-f638-49d2-ba82-d16b859a79d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\third_party\skia">
+      <UniqueIdentifier>{bc5a3da8-5cfb-46fa-ad98-2fbe20c19438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\third_party\skia\src">
+      <UniqueIdentifier>{7c20bdb8-d421-4ae4-9382-15da59ddf169}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\third_party\skia\src\opts">
+      <UniqueIdentifier>{0a19eb33-4cc7-4a93-aa7a-b6bb861c4257}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="skia.gyp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\third_party\skia\src\opts\SkBitmapProcState_opts_SSSE3.cpp">
+      <Filter>..\third_party\skia\src\opts</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

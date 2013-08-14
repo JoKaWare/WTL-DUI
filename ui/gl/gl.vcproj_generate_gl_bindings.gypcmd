@@ -1,0 +1,1 @@
+call "$(ProjectDir)..\..\third_party\cygwin\setup_env.bat" && set CYGWIN=nontsec&& set OUTDIR=$(OutDir)&& bash -c "\"python\" \"generate_bindings.py\" \"`cygpath -m \"${OUTDIR}\"`/obj/global_intermediate/ui/gl\""
