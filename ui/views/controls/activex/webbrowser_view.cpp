@@ -84,6 +84,8 @@ namespace views
         webbrowser_.QueryFrom(ax_host_->activex_control());
     }
 
-    void WebBrowserView::OnAxInvalidate(const gfx::Rect& rect) {}
+    void WebBrowserView::OnAxInvalidate(const gfx::Rect& rect) {
+
+	}
 
 } //namespace view

@@ -6,8 +6,8 @@
 #include <atlbase.h>
 #include <atlcom.h>
 #include <exdisp.h>
-#include "views/controls/activex/activex_host.h"
-#include "views/view.h"
+#include "ui/views/controls/activex/activex_host.h"
+#include "ui/views/view.h"
 
 namespace views
 {

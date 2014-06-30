@@ -102,18 +102,18 @@ void DemoMain::InitWidget()
     views::Widget* window = views::Widget::CreateWindowWithBounds(this,
         gfx::Rect(200, 200, 400, 400) );
 
-	tabbed_pane->AddTab( L"Label", new DemoLabel );
-		
-	tabbed_pane->AddTab( L"html", new DemoHtml );
+	//tabbed_pane->AddTab( L"Label", new DemoLabel );
+	//	
+	//tabbed_pane->AddTab( L"html", new DemoHtml );
 	
 	tabbed_pane->AddTab( L"WebBrowser", new DemoWebBrowser );
 
-	tabbed_pane->AddTab( L"Silverlight", new DemoSilverlight );
+	//tabbed_pane->AddTab( L"Silverlight", new DemoSilverlight );
 
-	tabbed_pane->AddTab( L"Bubble", new DemoBubble );
+	//tabbed_pane->AddTab( L"Bubble", new DemoBubble );
 
-	tabbed_pane->AddTab( L"ActiveX", new DemoActiveX );
+	//tabbed_pane->AddTab( L"ActiveX", new DemoActiveX );
 
-	tabbed_pane->AddTab( L"Animate", new DemoAnimate );
+	//tabbed_pane->AddTab( L"Animate", new DemoAnimate );
 
 }
