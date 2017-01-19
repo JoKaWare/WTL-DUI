@@ -1,10 +1,10 @@
 WTL-DUI
 =======
 
-One Direct UI Come Frome Chromium.
+The Chromium's Direct UI Framework.
 
-Just suport visual C++ 2008 now.
+Suport visual C++ 2008 just now.
 
 Require python, Windows SDK 7.1, Microsoft DirectX SDK (June 2010)
         
-There Some Demo in demo dir.
+
